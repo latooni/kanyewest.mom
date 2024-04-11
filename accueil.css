@@ -1,0 +1,124 @@
+* { 
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+}
+
+html {
+    margin: auto;
+    background-color: lightslategray;
+}
+
+header {
+    display: flex;
+    height: 5vw;
+    width: 100%;
+    background-color: silver;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header a {
+    color: black;
+    text-decoration: none;
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+footer {
+    background-color: silver;
+    font-size: 2vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 2vw;
+}
+
+footer a {
+    color: black;
+}
+
+a:hover {
+    color: white;
+}
+
+body a:active {
+    color: pink; 
+}
+
+main a:hover {
+    color: pink;
+}
+
+main a:active {
+    color: violet;
+}
+
+.hero {
+    height: 50vw;
+    width: auto;
+    background-image: url("../imgs/hero.png");
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+  }
+
+.titrehero {
+    font-size: 7vw;
+    text-align: center;
+    font-weight: bold;
+}
+
+section div a {
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px){
+    footer {
+        font-size: 2vw;
+        height: 3.5vw;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    html {
+        width: 80vw;
+    }
+
+    header {
+        height: 4vw;
+    }
+
+    header a {
+        font-size: 1.5vw;
+    }
+
+    footer {
+        height: 3vw;
+        font-size: 1.5vw;
+    }
+    
+}
+
+@media screen and (min-width: 1200px) {
+    html {
+        width: 70vw;
+    }
+
+    header {
+        height: 2.5vw;
+    }
+
+    header a {
+        font-size: 1vw;
+    }
+
+    footer {
+        font-size: 1vw;
+        height: 2vw;
+    }
+}
