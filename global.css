@@ -151,7 +151,7 @@ body a:active {
     }
 
     html {
-        background-image: url("../imgs/kanyeacc.png");
+        background-image: url("kanyeacc.png");
         height: 85vw;
         background-position: center;
         background-repeat: no-repeat;
